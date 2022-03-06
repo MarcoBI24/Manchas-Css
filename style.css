@@ -1,0 +1,168 @@
+.cabeza {
+    width: 250px;
+    height: 250px;
+    background: beige;
+    border-bottom-left-radius: 600px;
+    border-bottom-right-radius: 400px;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(315deg);
+    position: relative;
+    z-index: 30;
+  }
+  .oreja-izq {
+    background: pink;
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 100px;
+    transform-origin: center;
+    transform: rotate(110deg);
+    position: relative;
+    z-index: 0;
+    top: -235px;
+    left: 155px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: burlywood;
+  }
+  .oreja-der {
+    background: pink;
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 100px;
+    transform-origin: center;
+    transform: rotate(160deg);
+    position: relative;
+    z-index: 0;
+    left: 295px;
+    top: -357px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: burlywood;
+  }
+  .eyes {
+    position: relative;
+    left: 180px;
+    top: -405px;
+    z-index: 31;
+  }
+  .eye-lef {
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 70px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    width: 70px;
+    height: 70px;
+    background: burlywood;
+    transform-origin: center;
+    transform: rotate(-15deg);
+  }
+  .iris-l{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(185, 168, 110);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15px;
+  }
+  .esclerotica-l{
+    width: 15px;
+    height: 15px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 7px;
+
+
+  }
+  
+  .eye-rig {
+    overflow: hidden;
+    margin-right: 50px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background: burlywood;
+    transform-origin: center;
+    transform: rotate(15deg);
+  }
+  .iris-r{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(185, 168, 110);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15px;
+    transform-origin: center;
+    transform: rotate(85deg);
+  }
+  .escletorica-r{
+    width: 15px;
+    height: 15px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 7px;
+
+  }
+  .nariz{
+    width: 50px;
+    height: 50px;
+    background: pink;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 135px;
+    right: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 15px;
+  }
+  .bigote-l{
+    width: 60px;
+    height: 40px;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 7px;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom-left-radius: 40px;
+    position: relative;
+    top: 87px;
+    left: 20px;
+  }
+  .bigote-r{
+    width: 40px;
+    height: 55px;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 7px;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom-left-radius: 40px;
+    position: relative;
+    top: 60px;
+    left: 53px;
+  }
+  
